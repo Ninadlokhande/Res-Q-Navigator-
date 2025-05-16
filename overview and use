@@ -1,0 +1,106 @@
+Overview
+ResQ Navigator is an autonomous rescue robot designed to assist in emergencies by detecting fire and smoke and responding appropriately.
+
+It combines environmental sensing, obstacle avoidance, and actuation to navigate through hazardous areas safely.
+
+The robot uses sensors like the DHT11 (temperature and humidity), MQ2 (smoke), and ultrasonic sensors for obstacle detection.
+
+An Arduino Uno microcontroller processes sensor data and controls motors via an L298N driver, coordinating movement and activating a water pump to extinguish detected fires.
+
+The primary goal is to aid rescue teams by providing early fire detection and suppression in environments that are dangerous for humans.
+
+
+
+
+
+
+Use Cases
+Fire Detection and Suppression
+
+Detects rising temperature and smoke concentration in industrial plants, warehouses, or residential buildings.
+
+Automatically activates the water pump to suppress detected fires, minimizing damage.
+
+Search and Rescue Operations
+
+Navigates through debris or hazardous zones where human access is risky or impossible.
+
+Provides real-time data on environmental conditions to rescue teams.
+
+Hazardous Environment Monitoring
+
+Continuously patrols areas prone to fire outbreaks or toxic gas leaks.
+
+Alerts operators before situations escalate.
+
+Educational and Research Tool
+
+Demonstrates integration of sensors, motor control, and autonomous navigation.
+
+Ideal for robotics, embedded systems, and IoT learning projects.
+
+
+
+
+
+
+Advantages
+Autonomous Operation
+
+Functions independently without constant human control, reducing risk to personnel.
+
+Multi-Sensor Integration
+
+Combines temperature, smoke, and ultrasonic sensors for comprehensive environment monitoring.
+
+Real-Time Response
+
+Immediate detection and activation of safety measures, like a water pump to suppress fires.
+
+Obstacle Avoidance
+
+Ultrasonic sensors allow safe navigation around obstacles, enabling operation in cluttered environments.
+
+Cost-Effective Solution
+
+Uses affordable components like Arduino and common sensors, making it accessible for small organizations and educational institutions.
+
+Modular Design
+
+Easily upgradeable or customizable by adding more sensors or different actuators as needed.
+
+
+
+
+
+
+Properties of the Robot 
+Sensors:
+
+DHT11: Measures temperature and humidity; triggers fire alarm on sudden heat rise.
+
+MQ2: Detects smoke and combustible gases; sensitive to fire-related emissions.
+
+Ultrasonic Sensors: Measure distance to obstacles; enable path planning and collision avoidance.
+
+Actuators:
+
+L298N Motor Driver: Controls DC motors for precise movement and speed regulation.
+
+Water Pump: Activated on fire detection to suppress flames immediately.
+
+Controller:
+
+Arduino Uno: Central processing unit that reads sensor inputs and controls actuators.
+
+Power:
+
+Powered by a rechargeable battery suitable for mobile robotics.
+
+Mobility:
+
+Uses DC motors with wheels for differential drive; capable of turning and navigating complex paths.
+
+Communication:
+
+Can be enhanced with Bluetooth or Wi-Fi modules for remote monitoring and control (optional)
